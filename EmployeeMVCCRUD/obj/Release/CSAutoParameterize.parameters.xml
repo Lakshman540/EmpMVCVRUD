@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="OfficeEntities-Web.config Connection String" description="OfficeEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.EmployeeDBModel.csdl|res://*/Models.EmployeeDBModel.ssdl|res://*/Models.EmployeeDBModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=LAPTOP-KMFS75DM\SQLEXPRESS;initial catalog=Office;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\sriteja\\source\\repos\\EmployeeMVCCRUD\\EmployeeMVCCRUD\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='OfficeEntities']/@connectionString" />
+  </parameter>
+</parameters>
